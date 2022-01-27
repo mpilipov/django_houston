@@ -27,7 +27,7 @@ SECRET_KEY = os.environ.get('DJANGO_SECRET_KEY', 'cg#p$g+j9tax!#a3cup@1$8obt2_+&
 # False, в том случае, если переменная окружения DJANGO_DEBUG будет проинициализирована пустой строкой, то есть,
 # DJANGO_DEBUG=''
 DEBUG = bool( os.environ.get('DJANGO_DEBUG', True) )
-ALLOWED_HOSTS = ['https://desolate-beyond-96426.herokuapp.com/']
+ALLOWED_HOSTS = ['https://desolate-beyond-96426.herokuapp.com']
 
 # Application definition
 
