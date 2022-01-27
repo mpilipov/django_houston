@@ -1,0 +1,26 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Главная страница проекта</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+          integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+            crossorigin="anonymous"></script>
+</head>
+<body>
+<div class="jumbotron">
+    <h1 class="display-4">Проект Houston</h1>
+    <p class="lead">Первое приложение - страница про город Хьюстон.</p>
+    <p class="lead">Второе приложение - страница с описанием научных работ.</p>
+    <p class="lead">Третье приложение - страница с описанием проекта PiedPaper</p>
+    <p class="lead">
+        <a class="btn btn-primary btn-lg" href="{% url 'page' %}" role="button">Хьюстон</a>
+        <a class="btn btn-primary btn-lg" href="{% url 'portfolio' %}" role="button">Научные работы</a>
+        <a class="btn btn-primary btn-lg" href="{% url 'piedpaper' %}" role="button">PiedPaper</a>
+    </p>
+</div>
+</body>
+</html>
