@@ -79,13 +79,22 @@ WSGI_APPLICATION = 'Sixth_Houston.wsgi.application'
 # Database
 # https://docs.djangoproject.com/en/4.0/ref/settings/#databases
 
+# DATABASES = {
+#     'default': {
+#         'ENGINE': 'django.db.backends.sqlite3',
+#         'NAME': BASE_DIR / 'db.sqlite3',
+#     }
+# }
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': BASE_DIR / 'db.sqlite3',
+        'ENGINE': 'django.db.backends.postgresql_psycopg2',
+        'NAME': 'portfolio', # The Server name from 1.5
+        'USER': 'postgres', # The username from 1.6
+        'PASSWORD': '7898', # The password from installation
+        'HOST': 'localhost', # Host name/address from 1.6,
+        'PORT': '5432' # Port from 1.6
     }
 }
-
 # Password validation
 # https://docs.djangoproject.com/en/4.0/ref/settings/#auth-password-validators
 
