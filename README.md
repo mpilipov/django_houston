@@ -6,4 +6,4 @@ Houston project written in Django
 Третья - страница с CSS - вёрсткой.
 
 Проект реализован на чистом Django, с использованием БД SQLite
-Проект доступен по адресу https://intense-journey-96139.herokuapp.com/
+Проект доступен по адресу https://intense-journey-96139.herokuapp.com
