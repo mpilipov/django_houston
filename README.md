@@ -1,5 +1,6 @@
 # django_houston
-Houston project written in Django \n                                                                                                                                              
+Houston project written in Django
+
 Учебный проект размещённый на сервере Heroku, где содержится 3 простые страницы:
 
 Первая - на простом HTML
@@ -9,4 +10,5 @@ Houston project written in Django \n
 Третья - страница с CSS - вёрсткой.
 
 Проект реализован на чистом Django, с использованием БД SQLite
+
 Проект доступен по адресу https://intense-journey-96139.herokuapp.com
