@@ -1,5 +1,5 @@
 # django_houston
-Houston project written in Django\n
+Houston project written in Django \n
 Учебный проект размещённый на сервере Heroku, где содержится 3 простые страницы:
 Первая - на простом HTML
 Вторая - страница с хранилищем информации о научных работах (с добавлением в БД)
